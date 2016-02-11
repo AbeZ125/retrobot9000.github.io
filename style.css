@@ -1,0 +1,25 @@
+/* det här är external css, dvs css i en egen fil */
+
+body{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #00ff0a;
+    color:#de08f0;
+    background-image: url("stars.gif");
+}
+
+/* referera till något med ett id */
+#last-paragraph{
+    margin: 30px;
+    padding: 20px;
+    
+}
+
+/* en css-klass */
+.underlined-text{
+    text-decoration: underline;
+}
+
+.rundakanter {
+    border-radius: 300px;
+    padding: 20px;
+}
