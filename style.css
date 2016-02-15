@@ -43,24 +43,42 @@ li a{
     color: black;
 }
 
+main{
+    width: 45%;
+    float: left;
+    padding: 10px;
+}
+
 section{
     background-color: white;
     font-weight: bold;
+    height: auto;
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 article{
+    font-size: auto;
     font-weight: normal;
     padding: 5px;
+    height: auto;
+}
+
+aside{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    clear: both;
+    padding: 10px;
+    text-align: center;
+}
+
+.roundedImgEdges{
+    border-radius: 10px;
 }
 
 .img{
     float: right;
-}
-
-footer{
-    padding: 10px;
-text-align: center;
 }
