@@ -1,10 +1,17 @@
 var applePie = {
-    apples : 6,
-    butter : 150,
-    sugar : 1.5,
-    rolledOates : 3,
-    flour : 1.5,
-    bakingPowder : 0.5,
-    syrup : 0.5,
-    milk : 2
+    Äpplen : 6,
+    Smör : 150,
+    Socker : 1.5,
+    Havregryn : 3,
+    Mjöl : 1.5,
+    Bakpulver : 0.5,
+    Sirap : 0.5,
+    Mjölk : 2
 };
+
+function autoList(factor){
+    for(var i in applePie) {
+    document.body.innerHTML += i + ": " + applePie[i]*factor + "<br />";
+    }
+}
+

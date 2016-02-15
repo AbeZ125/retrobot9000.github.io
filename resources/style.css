@@ -46,6 +46,10 @@ li a{
 iframe{
     width: 100%;
     margin: 0px;
+    padding: 0px;
+    border: none;
+    height: 100%;
+    width: 100%;
 }
 
 main{
@@ -53,6 +57,7 @@ main{
     float: left;
     padding: 5px;
 }
+
 
 section{
     background-color: white;
