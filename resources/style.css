@@ -12,7 +12,7 @@ html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav,
 body{
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
     background-color: antiquewhite;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
@@ -20,7 +20,7 @@ body{
 }
 
 .topHeader{
-    background-image: url(resources/wov.png);
+    background-image: url(/resources/wov.png);
     color: black;
     font-weight: bold;
     padding: 15px 20px;
@@ -43,17 +43,20 @@ li a{
     color: black;
 }
 
+iframe{
+    width: 100%;
+    margin: 0px;
+}
+
 main{
     width: 45%;
     float: left;
-    padding: 10px;
+    padding: 5px;
 }
 
 section{
     background-color: white;
-    font-weight: bold;
-    height: auto;
-    padding: 10px;
+    padding: 5px;
 }
 
 article{
